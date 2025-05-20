@@ -18,6 +18,7 @@ public class JavaUtility {
 		String dataInFormat = f.format(d);
 		
 		return dataInFormat;
+		
 	}
 
 }
