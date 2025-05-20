@@ -23,7 +23,6 @@ import objectRepository.LoginPage;
  */
 public class BaseClass 
 {
-	
 	public JavaUtility jUtil=new JavaUtility();
 	public SeleniumUtility sUtil=new SeleniumUtility();
 	public FileUtility fUtil=new FileUtility();
