@@ -26,7 +26,7 @@ public class AddProductToCartTest extends BaseClass
 	public void tc_01_AddProductToCartTest() throws IOException
 	{
 		
-		//Read data from excel file
+		//Steps to Read data from excel file 
 		FileUtility file=new FileUtility();
 		String PRODUCTNAME= file.readDataFromExcel("Products", 1, 2);		
 		
