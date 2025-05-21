@@ -12,7 +12,6 @@
           <include name="acConfig"/>
           <include name="bsConfig"/>
           <include name="asConfig"/>
-          <include name="sample"/>
         </methods>
       </class> <!-- InventoryTests.AddProductToCartTest -->
     </classes>
