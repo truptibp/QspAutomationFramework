@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CartPage
 {
-	@FindBy(className="inventory_item_name")
+	@FindBy(xpath="//div[text()='Sauce Labs Fleece Jacket']")
 	private WebElement iteminfo;
 	
 	@FindBy(xpath="//button[text()='Remove']")
