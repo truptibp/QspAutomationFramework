@@ -10,7 +10,7 @@ import genericUtilities.SeleniumUtility;
 
 public class InventoryPage extends SeleniumUtility
 {
-	//Declaration
+	//Declaration 
 	@FindBy(name="Sauce Labs Fleece Jacket")
 	private WebElement productnameLink;
 	
