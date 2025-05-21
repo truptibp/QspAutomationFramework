@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class InventoryItemPage 
 {
-	@FindBy(id="add-to-cart")
+	@FindBy(name="add-to-cart")
 	private WebElement addTocartBtn;
 	
 	public WebElement getAddTocartBtn() {
