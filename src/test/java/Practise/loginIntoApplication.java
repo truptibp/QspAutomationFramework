@@ -23,10 +23,11 @@ public class loginIntoApplication {
 		driver.findElement(By.id("login-button")).click();
 		
 		//logout
-		driver.findElement(By.id("react-burger-menu-btn")).click();						
+		driver.findElement(By.id("react-burger-menu-btn")).click();	
+		//driver.findElement(By.xpath("//div[@class='bm-burger-button']")).click();
 		driver.findElement(By.id("logout_sidebar_link")).click();
 		
-		//driver.quit();
+		driver.quit();
 		
 	}
 

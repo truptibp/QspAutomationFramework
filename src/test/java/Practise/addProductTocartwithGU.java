@@ -40,7 +40,7 @@ public class addProductTocartwithGU {
 		String PRODUCTNAME= file.readDataFromExcel("Products", 1, 2);
 		
 		//launch the browser
-		WebDriver driver=new ChromeDriver();	
+		WebDriver driver=new EdgeDriver();	
 				
 		//maxmimize the browser		
 		sUtil.maximizeWindow(driver);

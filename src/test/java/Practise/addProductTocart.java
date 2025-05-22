@@ -37,7 +37,7 @@ public class addProductTocart {
 		String PRODUCTNAME = cl.getStringCellValue();
 		
 		//launch the brower
-		WebDriver driver=new ChromeDriver();	
+		WebDriver driver=new EdgeDriver();	
 		//maxmimize the browser
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -49,6 +49,7 @@ public class addProductTocart {
 		
 		//Click on product link		
 		WebElement ele = driver.findElement(By.xpath("//div[text()='"+PRODUCTNAME+"']"));
+		//WebElement ele = driver.findElement(By.xpath("//div[text()='Sauce Labs Fleece Jacket']"));)
 		String productname=ele.getText();
 		ele.click();
 		
@@ -73,7 +74,7 @@ public class addProductTocart {
 		driver.findElement(By.id("react-burger-menu-btn")).click();						
 		driver.findElement(By.id("logout_sidebar_link")).click();			
 		
-		//driver.quit();
+		driver.quit();
 	}
 
 }

@@ -6,12 +6,12 @@
       <class name="InventoryTests.AddProductToCartTest">
         <methods>
           <include name="amConfig"/>
-          <include name="tc_01_AddProductToCartTest"/>
           <include name="bmConfig"/>
           <include name="bcConfig"/>
           <include name="acConfig"/>
           <include name="bsConfig"/>
           <include name="asConfig"/>
+          <include name="sample"/>
         </methods>
       </class> <!-- InventoryTests.AddProductToCartTest -->
     </classes>
